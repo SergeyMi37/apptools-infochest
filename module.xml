@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="apptools-util.ZPM">
+  <Document name="apptools-infochest.ZPM">
     <Module>
-    <Name>apptools-util</Name>
-    <Version>1.1.3</Version>
-	<Description>Utilities for generating a XLS file, adapting for IRIS and working with modules ZPM.</Description>
+    <Name>apptools-infochest</Name>
+    <Version>1.1.4</Version>
+	<Description>Template and examples for creating a user interface for a media file storage.</Description>
     <Packaging>module</Packaging>
+	<Keywords>Application tools info chest</Keywords>
+	<Author>
+	<Person>Mikhaylenko Sergey</Person>
+	<CopyrightDate>2021</CopyrightDate>
+	<License>MIT</License>
+	</Author>
 	<Dependencies>
-      <ModuleReference>
-        <Name>apptools-admin</Name>
+	  <ModuleReference>
+      <Name>apptools-admin</Name>
         <Version>1.1.*</Version>
       </ModuleReference>
     </Dependencies>
 	<SourcesRoot>src</SourcesRoot>
-	<Resource Name="apptools.util.PKG"/>
+	<Resource Name="apptools.lte.infochest.CLS"/>
     </Module>
   </Document>
 </Export>
