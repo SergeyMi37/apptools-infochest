@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="apptools-util.ZPM">
+    <Module>
+    <Name>apptools-util</Name>
+    <Version>1.1.3</Version>
+	<Description>Utilities for generating a XLS file, adapting for IRIS and working with modules ZPM.</Description>
+    <Packaging>module</Packaging>
+	<Dependencies>
+      <ModuleReference>
+        <Name>apptools-admin</Name>
+        <Version>1.1.*</Version>
+      </ModuleReference>
+    </Dependencies>
+	<SourcesRoot>src</SourcesRoot>
+	<Resource Name="apptools.util.PKG"/>
+    </Module>
+  </Document>
+</Export>
