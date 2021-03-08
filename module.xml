@@ -3,7 +3,7 @@
   <Document name="apptools-infochest.ZPM">
     <Module>
     <Name>apptools-infochest</Name>
-    <Version>1.1.4</Version>
+    <Version>1.1.5</Version>
 	<Description>Template and examples for creating a user interface for a media file storage.</Description>
     <Packaging>module</Packaging>
 	<Keywords>Application tools info chest</Keywords>
