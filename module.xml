@@ -19,6 +19,9 @@
       </ModuleReference>
     </Dependencies>
 	<SourcesRoot>src</SourcesRoot>
+	<Invokes>
+        <Invoke Class="apptools.lte.infochest" Method="Init"></Invoke>
+    </Invokes>
 	<Resource Name="apptools.lte.infochest.CLS"/>
     </Module>
   </Document>
