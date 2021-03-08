@@ -241,7 +241,8 @@ ClassMethod NexLevelTree(Par = "") As %Status
 /// Get a sorted list of files and directories
 ClassMethod GetSortedList(key, dir, List, sort) As %Status
 {
-    d ##class(apptools.core.files).GetList(dir,"*.*",.List)
+	set wild=$s($zversion(1)=3:"*",1:"*.*")
+    d ##class(apptools.core.files).GetList(dir,wild,.List)
 	if key["audio" {
 		s wc=##class(apptools.core.filesMimeTypes).GetTypesWildcards("audio")
 		s sort("n")="Listen"
