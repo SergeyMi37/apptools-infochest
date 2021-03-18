@@ -1,4 +1,5 @@
-![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/hammer-red.png)
+![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/infochest.png)
+
 ## apptools-infochest
 [![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/apptools-infochest)
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
