@@ -12,7 +12,7 @@ env:
   SERVICE:      infochest
   DOMAIN_NAME:  infochest.demo.community.intersystems.com
 # Leave this section untouched
-  PROJECT_ID:   iris-community-demos
+  PROJECT_ID:   iris-community-demos222222
   CLUSTER_NAME: demo
   GITHUB_SHA:   ${{ github.sha }}
   GCR_LOCATION: eu.gcr.io

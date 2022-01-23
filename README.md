@@ -1,7 +1,7 @@
- ![Repo-GitHub](https://img.shields.io/badge/dynamic/xml?color=gold&label=GitHub&prefix=ver.&query=%2F%2FVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsergeymi37%2Fapptools-infochest%2Fmaster%2Fmodule.xml)
- 
- ![OEX-zapm](https://img.shields.io/badge/dynamic/json?url=https:%2F%2Fpm.community.intersystems.com%2Fpackages%2Fapptools-infochest%2F&label=ZPM-pm.community.intersystems.com&query=$.version&color=green&prefix=apptools-infochest+)
+ [![Repo-GitHub](https://img.shields.io/badge/dynamic/xml?color=gold&label=GitHub%20module.xml&prefix=ver.&query=%2F%2FVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsergeymi37%2Fapptools-infochest%2Fmaster%2Fmodule.xml)](https://raw.githubusercontent.com/sergeymi37/apptools-infochest/master/module.xml)
+[![OEX-apptools-infochest](https://img.shields.io/badge/dynamic/json?url=https:%2F%2Fpm.community.intersystems.com%2Fpackages%2Fapptools-infochest%2F&label=ZPM-pm.community.intersystems.com&query=$.version&color=green&prefix=apptools-infochest)](https://pm.community.intersystems.com/packages/apptools-infochest)
 
+[![Docker-ports](https://img.shields.io/badge/dynamic/yaml?color=blue&label=docker-compose&prefix=ports%20-%20&query=%24.services.iris.ports&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsergeymi37%2Fapptools-infochest%2Fmaster%2Fdocker-compose.yml)](https://raw.githubusercontent.com/sergeymi37/apptools-infochest/master/docker-compose.yml)
 
 ![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/infochest.png)
 
@@ -42,9 +42,9 @@ The Lightbox Component is used to view pictures and videos: UiKit.
 
 If ZPM the current instance is not installed, then in one line you can install the latest version of ZPM.
 ```
-set $namespace="%SYS", name="DefaultSSL" do:'##class(Security.SSLConfigs).Exists(name) ##class(Security.SSLConfigs).Create(name) set url="https://pm.community.intersystems.com/packages/zpm/latest/installer" Do ##class(%Net.URLParser).Parse(url,.comp) set ht = ##class(%Net.HttpRequest).%New(), ht.Server = comp("host"), ht.Port = 443, ht.Https=1, ht.SSLConfiguration=name, st=ht.Get(comp("path")) quit:'st $System.Status.GetErrorText(st) set xml=##class(%File).TempFilename("xml"), tFile = ##class(%Stream.FileBinary).%New(), tFile.Filename = xml do tFile.CopyFromAndSave(ht.HttpResponse.Data) do ht.%Close(), $system.OBJ.Load(xml,"ck") do ##class(%File).Delete(xml)
+zn "%SYS" d ##class(Security.SSLConfigs).Create("z") s r=##class(%Net.HttpRequest).%New(),r.Server="pm.community.intersystems.com",r.SSLConfiguration="z" d r.Get("/packages/zpm/latest/installer"),$system.OBJ.LoadStream(r.HttpResponse.Data,"c")
 ```
-If ZPM is installed, then ZAPM can be set with the command
+If ZPM is installed, then ZPM can be set with the command
 ```
 zpm:USER>install apptools-infochest
 ```
