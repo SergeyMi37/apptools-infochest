@@ -3,13 +3,13 @@
   <Document name="apptools-infochest.ZPM">
     <Module>
     <Name>apptools-infochest</Name>
-    <Version>1.1.7</Version>
+    <Version>1.1.8</Version>
 	<Description>Template and examples for creating a user interface for a media file storage.</Description>
     <Packaging>module</Packaging>
 	<Keywords>Application tools info chest</Keywords>
 	<Author>
 	<Person>Mikhaylenko Sergey</Person>
-	<CopyrightDate>2021</CopyrightDate>
+	<CopyrightDate>2022</CopyrightDate>
 	<License>MIT</License>
 	</Author>
 	<Dependencies>
@@ -23,6 +23,7 @@
         <Invoke Class="apptools.lte.infochest" Method="Init"></Invoke>
     </Invokes>
 	<Resource Name="apptools.lte.infochest.CLS"/>
+	<FileCopy Name="web/" Target="${mgrdir}infochest-files/"/>
     </Module>
   </Document>
 </Export>
