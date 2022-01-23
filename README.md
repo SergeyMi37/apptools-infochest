@@ -3,7 +3,7 @@
 
 [![Docker-ports](https://img.shields.io/badge/dynamic/yaml?color=blue&label=docker-compose&prefix=ports%20-%20&query=%24.services.iris.ports&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsergeymi37%2Fapptools-infochest%2Fmaster%2Fdocker-compose.yml)](https://raw.githubusercontent.com/sergeymi37/apptools-infochest/master/docker-compose.yml)
 
-![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/infochest.png)
+![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/infochest-min.png)
 
 ## apptools-infochest
 
