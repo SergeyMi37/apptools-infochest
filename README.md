@@ -7,7 +7,7 @@
 
 [![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/apptools-infochest)
 [![Demo](https://img.shields.io/badge/Demo%20on-GCR-black)](https://infochest.demo.community.intersystems.com/apptoolsrest/a/infochest)
-[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ [![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2Fapptools-infochest&metric=alert_status)]
 
 Application tools for technical support and DBMS administrator. View and edit arrays, execute queries, including JDBC/ODBC, sending results to email as XLS files. A few simple graphs on the protocols of the system.
 This solution can be installed in earlier versions of Caché and Ensemble (tested 2016.1+). This can be done by importing xml.
