@@ -6,7 +6,7 @@
 ## apptools-infochest
 
 [![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/apptools-infochest)
-[![Demo](https://img.shields.io/badge/Demo%20on-Cloud%20Run%20Deploy-Khaki)](https://infochest.demo.community.intersystems.com/apptoolsrest/a/infochest)
+[![Demo](https://img.shields.io/badge/Demo%20on-Cloud%20Run%20Deploy-F4A460)](https://infochest.demo.community.intersystems.com/apptoolsrest/a/infochest)
 
 A project in which multimedia treasures of files are collected in Photo Album, Music Player and Book Library in a user-friendly responsive interface.
 
