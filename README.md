@@ -6,16 +6,11 @@
 ## apptools-infochest
 
 [![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/apptools-infochest)
-[![Demo](https://img.shields.io/badge/Demo%20on-GCR-black)](https://infochest.demo.community.intersystems.com/apptoolsrest/a/infochest)
+[![Demo](https://img.shields.io/badge/Demo%20on-Cloud%20Run%20Deploy-Khaki)](https://infochest.demo.community.intersystems.com/apptoolsrest/a/infochest)
 
-Application tools for technical support and DBMS administrator. View and edit arrays, execute queries, including JDBC/ODBC, sending results to email as XLS files. A few simple graphs on the protocols of the system.
-This solution can be installed in earlier versions of Caché and Ensemble (tested 2016.1+). This can be done by importing xml.
+A project in which multimedia treasures of files are collected in Photo Album, Music Player and Book Library in a user-friendly responsive interface.
 
-## What's new
-This project is not only a set of [tools for the administrator](#PanelAdmin), but a platform for the rapid creation of a prototype of any solution.
-For example, Photo Album, Music Player, and Personal Books Library all come together in a user-friendly treasure chest design.
-
-Load http:// your-host:your-port/apptoolsrest/a/infochest
+Load http://your-host:your-port/apptoolsrest/a/infochest
 
 Change the path to your treasure files and start viewing, listening or reading from any convenient device: desktop, tablet or smartphone.
 
@@ -26,6 +21,7 @@ The example will be located at ${CSPdir}/apptools/files
 
 After saving and updating the panel, you can select a music track.
 ![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/chest/Screenshot_3.png)
+![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/chest/Screenshot_pg.png)
 
 The built-in HTML5 player is used to play music.
 ![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/chest/Screenshot_4.png)
@@ -34,6 +30,7 @@ The built-in HTML5 player is used to play music.
 
 The Lightbox Component is used to view pictures and videos: UiKit.
 ![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/chest/Screenshot_6.png)
+![](https://raw.githubusercontent.com/SergeyMi37/apptools-infochest/master/doc/chest/Screenshot_rc.png)
 
 ## Installation with ZPM
 
