@@ -75,6 +75,3 @@ USER>
 USER>zpm
 zpm:USER>install apptools-infochest
 ```
-# Container for this project deployed to the cloud for demonstration
-
-[![Demo](https://img.shields.io/badge/Demo%20on-GCR-black)](https://infochest.demo.community.intersystems.com/apptoolsrest/a/infochest)
