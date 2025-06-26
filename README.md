@@ -15,7 +15,6 @@ Added auto load
 A project in which multimedia treasures of files are collected in Photo Album, Music Player and Book Library in a user-friendly responsive interface.
 
 
-
 Load http://your-host:your-port/apptoolsrest/a/infochest
 
 Change the path to your treasure files and start viewing, listening or reading from any convenient device: desktop, tablet or smartphone.
